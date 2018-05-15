@@ -6,10 +6,10 @@ gem "octokit", "~> 2.0"
 gem "pry"
 gem "awesome_print"
 
-gem "pry" =>, :group "development"
+gem "pry", :group  => "development"
 group :development do
   gem "pry"
-  
+
 end
 
 Hashie
